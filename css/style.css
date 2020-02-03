@@ -9,13 +9,19 @@
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 /* header */
+
+header {
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .myclass__logomobile {
     fill: white;
     display: inline-block;
 }
 
 .myclass__menumobile {
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 .fa-bars {
@@ -27,7 +33,7 @@
 
 .myclass__menumobiledx {
     text-align: right;
-    margin-top: 18px;
+    margin-top: 23px;
 }
 
 nav {
@@ -47,13 +53,47 @@ nav {
         display: block;
     }
 
+    .white {
+        background-color: white;
+    }
+
     .myclass__logodesk{
         fill: #0069ff;
-        display: inline-block;
+        display: inline;
     }
 
     .myclass__menudesk {
-        padding: 10px 0px;
+        padding: 15px 0px;
+    }
+
+    .myclass__menudesk1 {
+        padding: 15px 0px;
+    }
+
+    .myclass__link {
+        margin-top: 8px;
+    }
+
+    .myclass__link a {
+        margin-right: 25px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .myclass__link a:hover {
+        color: #3f8eff;
+    }
+
+    .myclass__btn-blue {
+        border: 1px solid #3f8eff;
+        color: #3f8eff;
+        font-weight: 500;
+        padding: 5px 15px;
+    }
+
+    .myclass__btn-blue:hover {
+        background-color: #3f8eff;
+        color:white;
     }
 
 }
