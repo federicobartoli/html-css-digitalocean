@@ -99,14 +99,26 @@ nav {
 .myclass__spazio:before,
 .myclass__spazio:after {
     content: "" ;
-    width: 100px;
-    height: 2px;
-    background-color: black;
+    width: 20px;
+    height: 1px;
+    background-color: #5b6987;
+    color: #5b6987;
     display: inline-block;
+    position: relative;
+    bottom: 5px;
+}
+
+.myclass__spazio:after {
+    margin-left: 20px
+}
+
+.myclass__spazio:before {
+    margin-right: 20px
 }
 
 #inline {
     display: inline;
+    color: #5b6987;
 }
 
 .btn-block {
@@ -187,6 +199,7 @@ nav {
         background-color: #0248ff;
         background-image: none;
     }
+
 }
 
 @media screen and (min-width:768px) {
