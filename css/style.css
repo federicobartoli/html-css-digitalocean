@@ -41,6 +41,89 @@ nav {
     display: none;
 }
 
+.myclass__welcome {
+    color: white;
+    padding: 0;
+}
+
+.myclass__welcome2 {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.myclass_welcome h1 {
+    font-size: 30px;
+}
+
+.myclass__welcome p {
+    opacity: .8;
+    font-size: 25px;
+}
+/* banner */
+
+.myclass__bannerspace {
+    padding-top: 60px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 15px;
+}
+
+.form-group {
+    padding-top: 5px 0px;
+    border:none;
+    border-radius: 0;
+    background: 0 0 ;
+    box-shadow: none;
+}
+
+.form-control {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+#name,
+#exampleInputemal,
+#password {
+    color: black;
+    height: 48px;
+}
+
+
+.myclass__spazio:before,
+.myclass__spazio:after {
+    content: "" ;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+}
+
+#inline {
+    display: inline;
+}
+
+.btn-block {
+    background-color: #0069ff;
+    height: 48px;
+}
+
+.jumbotron h2 {
+    padding: 0px 0px 20px;
+}
+
+.jumbotron {
+
+}
+
+
+
 @media screen and (min-width:1050px) {
     .myclass__menumobiledx {
         display: none;
@@ -103,5 +186,15 @@ nav {
     .myclass__fishbg {
         background-color: #0248ff;
         background-image: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .myclass__welcome {
+        padding-top: 80px;
+    }
+
+    .myclass__bannerspace {
+        padding-top: 100px;
     }
 }
