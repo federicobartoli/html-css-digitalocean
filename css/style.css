@@ -134,6 +134,52 @@ nav {
 
 }
 
+.myclass__bottoni {
+    padding-top: 30px;
+    color: black;
+    width: 100%;
+
+}
+
+.btn-google {
+    margin-right: 10px;
+    padding: 15px;
+    font-weight: 500;
+    width: 47.5%;
+}
+
+.btn-github {
+    padding: 15px;
+    width: 47.5%;
+    font-weight: 500;
+}
+
+.myclass__spaziobottone {
+    display: inline;
+    padding-left: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .btn-google {
+        margin-right: 10px;
+        padding: 15px;
+        font-weight: 500;
+        width: 47%;
+    }
+
+    .btn-github {
+        padding: 15px;
+        width: 47%;
+        font-weight: 500;
+    }
+
+    .myclass__spaziobottone {
+        display: inline;
+        padding-left: 10px;
+    }
+
+}
+
 
 
 @media screen and (min-width:1050px) {
@@ -198,6 +244,24 @@ nav {
     .myclass__fishbg {
         background-color: #0248ff;
         background-image: none;
+    }
+
+    .btn-google {
+        margin-right: 10px;
+        padding: 15px;
+        font-weight: 500;
+        width: 49%;
+    }
+
+    .btn-github {
+        padding: 15px;
+        width: 49%;
+        font-weight: 500;
+    }
+
+    .myclass__spaziobottone {
+        display: inline;
+        padding-left: 50px;
     }
 
 }
