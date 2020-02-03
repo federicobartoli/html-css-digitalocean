@@ -9,7 +9,7 @@
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 /* header */
-.myclass__logowhite {
+.myclass__logomobile {
     fill: white;
     display: inline-block;
 }
@@ -28,4 +28,32 @@
 .myclass__menumobiledx {
     text-align: right;
     margin-top: 18px;
+}
+
+nav {
+    display: none;
+}
+
+@media screen and (min-width:1050px) {
+    .myclass__menumobiledx {
+        display: none;
+    }
+
+    .myclass__logomobile {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .myclass__logodesk{
+        fill: #0069ff;
+        display: inline-block;
+    }
+
+    .myclass__menudesk {
+        padding: 10px 0px;
+    }
+
 }
