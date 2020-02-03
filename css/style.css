@@ -1,0 +1,31 @@
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+/* Background */
+.myclass__fishbg {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+}
+/* header */
+.myclass__logowhite {
+    fill: white;
+    display: inline-block;
+}
+
+.myclass__menumobile {
+    padding: 10px 0px;
+}
+
+.fa-bars {
+    color: white;
+    display: inline;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.myclass__menumobiledx {
+    text-align: right;
+    margin-top: 18px;
+}
