@@ -148,12 +148,14 @@ nav {
     padding: 15px;
     font-weight: 500;
     width: 47.5%;
+    border: 1px solid rgba(0,105,255,.2);
 }
 
 .btn-github {
     padding: 15px;
     width: 47.5%;
     font-weight: 500;
+    border: 1px solid rgba(0,105,255,.2);
 }
 
 .myclass__spaziobottone {
@@ -209,6 +211,9 @@ ul.myclass__ads li img {
     font-weight: 500;
 }
 
+.myclass__bottoni button {
+    background-color: #f2f8ff;
+}
 
 
 
