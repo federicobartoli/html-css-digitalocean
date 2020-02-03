@@ -179,7 +179,7 @@ small {
 .myclass__trust h3 {
     color: #98a4b9;
     font-size: 14px;
-    padding: 50px 0px;
+    padding: 50px 0px 0px;;
     text-transform: uppercase;
     letter-spacing: .05em;
 }
@@ -203,6 +203,11 @@ ul.myclass__ads li img {
   vertical-align: middle;
 }
 
+.myclass__blue h4{
+    color: #4590fe;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
