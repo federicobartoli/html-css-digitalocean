@@ -178,8 +178,31 @@ small {
 
 .myclass__trust h3 {
     color: #98a4b9;
-    font-size: 20px;
+    font-size: 14px;
+    padding: 50px 0px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
 }
+
+.myclass__ads{
+    padding: 0;
+}
+
+
+ul.myclass__ads {
+  list-style: none;
+}
+
+ul.myclass__ads li {
+  display: inline-block;
+  width: calc((100% / 6) - 4px)
+}
+
+ul.myclass__ads li img {
+  width: 100%;
+  vertical-align: middle;
+}
+
 
 
 
@@ -300,5 +323,12 @@ small {
 
     .myclass__bannerspace {
         padding-top: 100px;
+    }
+}
+
+@media all and (max-width:768px) {
+    ul.myclass__ads li {
+      display: inline-block;
+      width: calc((100% / 2) - 6px)
     }
 }
