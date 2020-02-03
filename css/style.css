@@ -6,6 +6,7 @@
 }
 /* Background */
 .myclass__fishbg {
+    background-color: #0248ff;
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 /* header */
@@ -96,4 +97,11 @@ nav {
         color:white;
     }
 
+}
+
+@media screen and (max-width:767px) {
+    .myclass__fishbg {
+        background-color: #0248ff;
+        background-image: none;
+    }
 }
