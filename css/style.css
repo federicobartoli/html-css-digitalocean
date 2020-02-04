@@ -11,7 +11,7 @@
 }
 /* header */
 
-header {
+body {
     font-family: 'Roboto', sans-serif;
 
 }
@@ -186,7 +186,10 @@ small {
     letter-spacing: .05em;
 }
 
-.myclass__ads{
+
+/* METODO CON IMMAGINI NON RIDIMENSIONATE */
+
+/* .myclass__ads{
     padding: 0;
 }
 
@@ -207,19 +210,31 @@ ul.myclass__ads li img {
   max-height: 65px;
 }
 
+#cambiamento img{
+    max-height: 33px;
+} */
+
+
+/*  */
+
+.myclass__pubblicita img {
+    max-height: 60px;
+}
+
 .myclass__blue h4{
     color: #4590fe;
     font-size: 14px;
     font-weight: 500;
+    padding-top: 15px;
 }
+
+
 
 .myclass__bottoni button {
     background-color: #f2f8ff;
 }
 
-#cambiamento img{
-    max-height: 33px;
-}
+
 
 
 
@@ -341,9 +356,9 @@ ul.myclass__ads li img {
     }
 }
 
-@media all and (max-width:768px) {
+/* @media all and (max-width:768px) {
     ul.myclass__ads li {
       display: inline-block;
       width: calc((100% / 2) - 6px)
     }
-}
+} */
