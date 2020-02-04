@@ -380,8 +380,33 @@ a {
     background-image: none;
 }
 
+h4 {
+    color: white;
+    font-size: 30px;
+}
+
+.myclass__buttonfede {
+    padding-top: 24px;
+}
+
+.btn-fede {
+    background-color: white;
+    color: #0069ff;
+    font-weight: 400;
+    padding: 12px 45px;
+}
+
+.btn-fede:hover {
+    background-color: hsla(0,0%,100%,.8);
+    color: #0069ff;
+}
+
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {
     margin-bottom: 50px;
+}
+
+.myclass__getstarted {
+    padding: 64px 0px 64px;
 }
 
 /* media screen */
