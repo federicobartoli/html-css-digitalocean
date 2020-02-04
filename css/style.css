@@ -372,6 +372,17 @@ a {
     padding-bottom: 18px;
 }
 
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    margin-bottom: 50px;
+}
 
 /* media screen */
 @media screen and (max-width:991px) {
