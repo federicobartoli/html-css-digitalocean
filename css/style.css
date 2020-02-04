@@ -263,6 +263,13 @@ ul.myclass__ads li img {
     margin-bottom: 64px
 }
 
+.myclass__padding {
+    padding-bottom: 40px;
+}
+
+.myclass__cerchietti {
+  color: #0049FF;
+}
 
 .btn-default {
     border:none;
@@ -309,6 +316,14 @@ ul.myclass__ads li img {
 
 #myclass__paragrafi  {
     font-size: 20px;
+}
+
+a {
+    color: #0d70ff;
+}
+
+.myclass__a {
+    padding-bottom: 50px;
 }
 
 
