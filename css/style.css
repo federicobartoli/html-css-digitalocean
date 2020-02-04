@@ -359,13 +359,17 @@ a {
     padding-top: 10px;
 }
 
+.myclass__paddingtop {
+    padding-top: 30px;
+}
+
 .myclass__noborder {
     border: none;
 }
 
 .serviceyourcustomers {
     color: white;
-    padding-bottom: 48px;
+    padding-bottom: 18px;
 }
 
 
