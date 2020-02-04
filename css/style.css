@@ -234,7 +234,56 @@ ul.myclass__ads li img {
     background-color: #f2f8ff;
 }
 
+.myclass__white {
+    padding: 70px 0px 0px;
+}
 
+.myclass__reset {
+    padding: 0;
+    margin: 0;
+}
+
+#myclass__deploy {
+    letter-spacing: -.9px;
+    font-size: 36px;
+}
+
+#myclass__paragrafi {
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgba(3,27,78,.7);
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.myclass__deploy2 {
+    margin-bottom: 64px
+}
+
+.btn-default {
+    border:none;
+    border-radius: 0;
+    background: 0 0 ;
+    box-shadow: none;
+    border-left: 2px solid #e6e9ed;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 17px 10px 17px 30px;
+    color: rgba(3,27,78,.5);
+}
+
+.btn-attivo {
+    border-left: 2px solid #0c70ff;
+    color: black;
+}
+
+.btn-default:hover {
+    background-color: white;
+    border-left: 2px solid #0c70ff;
+}
+
+.myclass {
+    float: left;
+}
 
 
 
@@ -311,6 +360,7 @@ ul.myclass__ads li img {
         color: #3f8eff;
         font-weight: 500;
         padding: 5px 15px;
+        background-color: white;
     }
 
     .myclass__btn-blue:hover {
@@ -354,6 +404,8 @@ ul.myclass__ads li img {
     .myclass__bannerspace {
         padding-top: 100px;
     }
+
+
 }
 
 /* @media all and (max-width:768px) {
