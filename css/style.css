@@ -203,6 +203,8 @@ ul.myclass__ads li {
 ul.myclass__ads li img {
   width: 100%;
   vertical-align: middle;
+  object-fit: contain;
+  max-height: 65px;
 }
 
 .myclass__blue h4{
@@ -215,6 +217,9 @@ ul.myclass__ads li img {
     background-color: #f2f8ff;
 }
 
+#cambiamento img{
+    max-height: 33px;
+}
 
 
 
