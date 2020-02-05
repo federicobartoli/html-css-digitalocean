@@ -441,6 +441,39 @@ h4 {
     color:white;
 }
 
+.myclass__list {
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid #6795ae;
+
+}
+
+.margin32 {
+    margin-top: 32px;
+}
+
+.margin32 img {
+    margin-right: 16px;
+}
+
+.copyright {
+    display: inline;
+    color: hsla(0,0%,100%,.5);
+}
+
+.myclass__socialicon {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.myclass__socialicon a {
+    text-decoration: none;
+    color: #808794;
+    margin-right: 5px;
+}
+
+.myclass__socialicon a:hover{
+    color: white;
+}
 
 
 /* media screen */
