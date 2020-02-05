@@ -414,6 +414,35 @@ h4 {
     padding: 64px 0px 64px;
 }
 
+.myclass__blunotte {
+    background-color: #010e28
+}
+
+.myclass__list li {
+    color: hsla(0,0%,100%,.5);
+    padding-bottom: 7px;
+}
+
+.myclass__list a {
+    text-decoration: none;
+    color: hsla(0,0%,100%,.5);
+}
+
+.myclass__list a:hover {
+    color:white;
+}
+
+#item1 {
+    padding-bottom: 14px;
+    color: white;
+}
+
+#item1 a {
+    color:white;
+}
+
+
+
 /* media screen */
 @media screen and (max-width:991px) {
     .btn-google {
@@ -521,6 +550,11 @@ h4 {
         padding-left: 50px;
     }
 
+    .btn-fede {
+        font-size: 12px;
+        padding: 12px 10px;
+    }
+
 }
 
 @media screen and (min-width:768px) {
@@ -531,6 +565,8 @@ h4 {
     .myclass__bannerspace {
         padding-top: 100px;
     }
+
+
 
 
 }
