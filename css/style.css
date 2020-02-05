@@ -183,12 +183,21 @@ small {
     background-color: #f3f5f9;
 }
 
+.myclass__trust {
+    padding: 64px 0px 64px;
+}
+
 .myclass__trust h3 {
     color: #98a4b9;
     font-size: 14px;
-    padding: 50px 0px 0px;;
     text-transform: uppercase;
     letter-spacing: .05em;
+    margin-bottom: 32px;
+    margin-top: 0px;
+}
+
+.myclass__padding_bottom {
+    padding-bottom: 16px;
 }
 
 
@@ -223,7 +232,7 @@ ul.myclass__ads li img {
 /*  */
 
 .myclass__pubblicita img {
-    max-height: 60px;
+    max-height: 70px;
 }
 
 .myclass__blue h4{
@@ -240,8 +249,13 @@ ul.myclass__ads li img {
 }
 
 .myclass__white {
-    padding: 70px 0px 64px ;
+    padding: 64px 0px 64px ;
 }
+
+.myclass__whitebig {
+    padding: 64px 0px 64px ;
+}
+
 
 .myclass__reset {
     padding: 0;
@@ -355,6 +369,16 @@ a {
     opacity: .6;
 }
 
+.myclass__blue a {
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.myclass__blue a:hover {
+    color: #0d70ff;
+}
+
 .color__acqua a {
     color: #00d7d2;
     text-decoration: none;
@@ -450,6 +474,10 @@ h4 {
     padding-bottom: 40px;
     border-bottom: 0.5px solid #6795ae;
 
+}
+
+.myclass__96 {
+    padding: 96px 0px 96px;
 }
 
 .margin32 {
@@ -561,6 +589,15 @@ h4 {
         background-color: #3f8eff;
         color:white;
     }
+
+    .myclass__white {
+        padding: 120px 0px 120px ;
+    }
+
+    .myclass__whitebig {
+        padding: 120px 0px 120px ;
+    }
+
 
 }
 
