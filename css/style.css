@@ -355,8 +355,13 @@ a {
     opacity: .6;
 }
 
-.color__acqua {
+.color__acqua a {
     color: #00d7d2;
+    text-decoration: none;
+}
+
+.color__acqua a:hover {
+    color: #005fe6;
 }
 
 .myclass__paddingbottom {
